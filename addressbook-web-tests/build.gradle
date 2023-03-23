@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.testng', name: 'testng', version: '7.7.1'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.8.1'
+    implementation group: 'org.apache', name: 'apache', version: '29'
+    implementation group: 'org.openqa.selenium.server', name: 'selenium-server', version: '1.0-20081010.060147'
+    implementation group: 'org.openqa.selenium', name: 'selenium-rc', version: '1.0-20081010.060147'
+}
